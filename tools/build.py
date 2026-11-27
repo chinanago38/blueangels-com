@@ -12,8 +12,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://xn--hckb2cf5l4ed5d5d.com"
 CSS_VER = "20261127m"
 AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1061443138303693" crossorigin="anonymous"></script>'
-NAV = [("2027年の予定", "/schedule/2027/")]
-SECTION_NAME = {"schedule": ("スケジュール", "/schedule/")}
+NAV = [("2027年の予定", "/schedule/2027/"), ("行事の案内", "/events/")]
+SECTION_NAME = {"schedule": ("スケジュール", "/schedule/"), "events": ("行事の案内", "/events/")}
 
 def esc(s): return html.escape(s, quote=True)
 def strip(s): return re.sub(r"<[^>]+>", "", s).strip()
@@ -428,9 +428,9 @@ def complete(name):
 
 def unlink_missing(body):
     def rep(m):
-        d, sl = m.group(1), m.group(2)
+        d, sl = m.group(1), m.group(2) or "index"
         return m.group(0) if complete(f"{d}__{sl}.html") else m.group(3)
-    return re.sub(r'<a href="/(schedule)/([a-z0-9]+)/"[^>]*>(.*?)</a>', rep, body)
+    return re.sub(r'<a href="/(schedule|events)/(?:([a-z0-9]+)/)?"[^>]*>(.*?)</a>', rep, body)
 
 def render(url, title, desc, body):
     body = unlink_missing(link_ships(url, body))
@@ -469,7 +469,7 @@ def render(url, title, desc, body):
         main = main[:j] + gal + main[j:] if j >= 0 else main + gal
     main = events.insert(url, main)
     main = sections.insert(url, main)
-    nav = "".join(f'<a href="{u}">{t}</a>' for t, u in NAV if os.path.exists(os.path.join(ROOT, u.strip("/"), "index.html")) )
+    nav = "".join(f'<a href="{u}">{t}</a>' for t, u in NAV if u != "/events/" or complete("events__index.html"))
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
