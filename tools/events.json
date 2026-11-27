@@ -8,12 +8,301 @@
  },
  "events": [
   {
+   "start": "2025-03-15",
+   "end": "2025-03-15",
+   "place": "NAF El Centro, CA",
+   "name": "",
+   "url": "",
+   "ja": "カリフォルニア州 エルセントロ海軍航空施設",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-03-22",
+   "end": "2025-03-23",
+   "place": "Sacramento, CA",
+   "name": "",
+   "url": "",
+   "ja": "カリフォルニア州 サクラメント",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-03-29",
+   "end": "2025-03-30",
+   "place": "NAS Key West, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 キーウェスト海軍航空基地",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-04-05",
+   "end": "2025-04-06",
+   "place": "Lakeland, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 レイクランド",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-04-12",
+   "end": "2025-04-13",
+   "place": "MCAS Beaufort, SC",
+   "name": "",
+   "url": "",
+   "ja": "サウスカロライナ州 ボーフォート海兵隊航空基地",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-04-26",
+   "end": "2025-04-27",
+   "place": "Augusta, GA",
+   "name": "",
+   "url": "",
+   "ja": "ジョージア州 オーガスタ",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-05-03",
+   "end": "2025-05-04",
+   "place": "NAS Corpus Christi, TX",
+   "name": "",
+   "url": "",
+   "ja": "テキサス州 コーパスクリスティ海軍航空基地",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-05-10",
+   "end": "2025-05-11",
+   "place": "Fort Lauderdale, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 フォートローダーデール",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-05-17",
+   "end": "2025-05-18",
+   "place": "Martinsburg, WV",
+   "name": "",
+   "url": "",
+   "ja": "ウェストバージニア州 マーティンズバーグ",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-05-21",
+   "end": "2025-05-23",
+   "place": "USNA, Annapolis, MD",
+   "name": "",
+   "url": "",
+   "ja": "メリーランド州 米海軍兵学校（アナポリス）",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-05-24",
+   "end": "2025-05-25",
+   "place": "Harrisburg, PA",
+   "name": "",
+   "url": "",
+   "ja": "ペンシルベニア州 ハリスバーグ",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-06-07",
+   "end": "2025-06-08",
+   "place": "Smyrna, TN",
+   "name": "",
+   "url": "",
+   "ja": "テネシー州 スマーナ",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-06-14",
+   "end": "2025-06-15",
+   "place": "Ocean City, MD",
+   "name": "",
+   "url": "",
+   "ja": "メリーランド州 オーシャンシティ",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-06-21",
+   "end": "2025-06-22",
+   "place": "Belleville, MI",
+   "name": "",
+   "url": "",
+   "ja": "ミシガン州 ベルビル",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-06-28",
+   "end": "2025-06-29",
+   "place": "Eau Claire, WI",
+   "name": "",
+   "url": "",
+   "ja": "ウィスコンシン州 オークレア",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-07-05",
+   "end": "2025-07-06",
+   "place": "Duluth, MN",
+   "name": "",
+   "url": "",
+   "ja": "ミネソタ州 ダルース",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-07-12",
+   "end": "2025-07-12",
+   "place": "Pensacola Beach, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 ペンサコーラビーチ",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-07-19",
+   "end": "2025-07-20",
+   "place": "Milwaukee, WI",
+   "name": "",
+   "url": "",
+   "ja": "ウィスコンシン州 ミルウォーキー",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-08-02",
+   "end": "2025-08-03",
+   "place": "Seattle, WA",
+   "name": "",
+   "url": "",
+   "ja": "ワシントン州 シアトル",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-08-09",
+   "end": "2025-08-10",
+   "place": "MCAS Kaneohe Bay, HI",
+   "name": "",
+   "url": "",
+   "ja": "ハワイ州 カネオヘベイ海兵隊航空基地",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-08-16",
+   "end": "2025-08-17",
+   "place": "Twin Falls, ID",
+   "name": "",
+   "url": "",
+   "ja": "アイダホ州 ツインフォールズ",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-08-23",
+   "end": "2025-08-24",
+   "place": "Columbus, OH",
+   "name": "",
+   "url": "",
+   "ja": "オハイオ州 コロンバス",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-08-30",
+   "end": "2025-08-31",
+   "place": "Branson, MO",
+   "name": "",
+   "url": "",
+   "ja": "ミズーリ州 ブランソン",
+   "page": "/events/2025midwest/"
+  },
+  {
+   "start": "2025-09-06",
+   "end": "2025-09-07",
+   "place": "Portsmouth, NH",
+   "name": "",
+   "url": "",
+   "ja": "ニューハンプシャー州 ポーツマス",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-09-20",
+   "end": "2025-09-21",
+   "place": "NAS Oceana, VA",
+   "name": "",
+   "url": "",
+   "ja": "バージニア州 オシアナ海軍航空基地",
+   "page": "/events/2025east/"
+  },
+  {
+   "start": "2025-09-27",
+   "end": "2025-09-28",
+   "place": "MCAS Miramar, CA",
+   "name": "",
+   "url": "",
+   "ja": "カリフォルニア州 ミラマー海兵隊航空基地",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-10-04",
+   "end": "2025-10-05",
+   "place": "Salinas, CA",
+   "name": "",
+   "url": "",
+   "ja": "カリフォルニア州 サリナス",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-10-11",
+   "end": "2025-10-12",
+   "place": "San Francisco, CA",
+   "name": "",
+   "url": "",
+   "ja": "カリフォルニア州 サンフランシスコ",
+   "page": "/events/2025west/"
+  },
+  {
+   "start": "2025-10-18",
+   "end": "2025-10-19",
+   "place": "Rome, GA",
+   "name": "",
+   "url": "",
+   "ja": "ジョージア州 ローム",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-10-25",
+   "end": "2025-10-26",
+   "place": "Lake Charles, LA",
+   "name": "",
+   "url": "",
+   "ja": "ルイジアナ州 レイクチャールズ",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-11-01",
+   "end": "2025-11-02",
+   "place": "Punta Gorda, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 プンタゴルダ",
+   "page": "/events/2025south/"
+  },
+  {
+   "start": "2025-11-07",
+   "end": "2025-11-08",
+   "place": "NAS Pensacola, FL",
+   "name": "",
+   "url": "",
+   "ja": "フロリダ州 ペンサコーラ海軍航空基地",
+   "page": "/events/2025south/"
+  },
+  {
    "start": "2026-03-14",
    "end": "2026-03-14",
    "place": "MCAS Yuma, AZ",
    "ja": "アリゾナ州 ユマ海兵隊航空基地",
    "name": "MCAS Yuma Airshow",
-   "url": ""
+   "url": "",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-03-21",
@@ -21,7 +310,8 @@
    "place": "Luke AFB, AZ",
    "ja": "アリゾナ州 ルーク空軍基地",
    "name": "Luke Days Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-03-28",
@@ -29,7 +319,8 @@
    "place": "NAS Meridian, MS",
    "ja": "ミシシッピ州 メリディアン海軍航空基地",
    "name": "NAS Meridian Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-04-11",
@@ -37,7 +328,8 @@
    "place": "Cocoa Beach, FL",
    "ja": "フロリダ州 ココアビーチ",
    "name": "Air-Space Expo",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-04-18",
@@ -45,7 +337,8 @@
    "place": "NAS Kingsville, TX",
    "ja": "テキサス州 キングスビル海軍航空基地",
    "name": "Wings Over South Texas",
-   "url": "https://www.wingsoversouthtexas.com/"
+   "url": "https://www.wingsoversouthtexas.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-04-25",
@@ -53,7 +346,8 @@
    "place": "Vidalia, GA",
    "ja": "ジョージア州 ビダリア",
    "name": "Vidalia Onion Festival Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-05-02",
@@ -61,7 +355,8 @@
    "place": "JB Charleston, SC",
    "ja": "サウスカロライナ州 チャールストン統合基地",
    "name": "Charleston Air Show \"Heroes of Flight\"",
-   "url": "https://www.jbcharleston.com/airshow"
+   "url": "https://www.jbcharleston.com/airshow",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-05-09",
@@ -69,7 +364,8 @@
    "place": "MCAS Cherry Point, NC",
    "ja": "ノースカロライナ州 チェリーポイント海兵隊航空基地",
    "name": "MCAS Cherry Point Air Show",
-   "url": "https://www.cherrypointairshow.com/"
+   "url": "https://www.cherrypointairshow.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-05-16",
@@ -77,7 +373,8 @@
    "place": "Vero Beach, FL",
    "ja": "フロリダ州 ベロビーチ",
    "name": "Vero Beach Air Show",
-   "url": "https://www.veroairshow.com/"
+   "url": "https://www.veroairshow.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-05-20",
@@ -85,7 +382,8 @@
    "place": "USNA, Annapolis, MD",
    "ja": "メリーランド州 米海軍兵学校（アナポリス）",
    "name": "U.S. Naval Academy Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-05-23",
@@ -93,7 +391,8 @@
    "place": "Harrisburg, PA",
    "ja": "ペンシルベニア州 ハリスバーグ",
    "name": "Air Dot Show Harrisburg",
-   "url": "https://air.show/centralpa/"
+   "url": "https://air.show/centralpa/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-06-06",
@@ -101,7 +400,8 @@
    "place": "Chesterfield, MO",
    "ja": "ミズーリ州 チェスターフィールド",
    "name": "Spirit of St. Louis Air Show & STEM Expo",
-   "url": "https://spirit-airshow.com/"
+   "url": "https://spirit-airshow.com/",
+   "page": "/events/2026midwest/"
   },
   {
    "start": "2026-06-13",
@@ -109,7 +409,8 @@
    "place": "Dayton, OH",
    "ja": "オハイオ州 デイトン",
    "name": "CenterPoint Energy Dayton Air Show",
-   "url": "https://daytonairshow.com/"
+   "url": "https://daytonairshow.com/",
+   "page": "/events/2026midwest/"
   },
   {
    "start": "2026-06-20",
@@ -117,7 +418,8 @@
    "place": "NAS Patuxent River, MD",
    "ja": "メリーランド州 パタクセントリバー海軍航空基地",
    "name": "2026 NAS Patuxent River Airshow",
-   "url": "https://www.paxriverairshow.com/"
+   "url": "https://www.paxriverairshow.com/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-06-27",
@@ -125,7 +427,8 @@
    "place": "Baltimore, MD",
    "ja": "メリーランド州 ボルチモア",
    "name": "SAIL250 Maryland and Airshow Baltimore",
-   "url": "https://www.sail250md.org/"
+   "url": "https://www.sail250md.org/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-07-05",
@@ -133,7 +436,8 @@
    "place": "Jones Beach, NY",
    "ja": "ニューヨーク州 ジョーンズビーチ",
    "name": "Four-Leaf Air Show",
-   "url": "https://www.fourleafairshow.com/"
+   "url": "https://www.fourleafairshow.com/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-07-11",
@@ -141,7 +445,8 @@
    "place": "Brunswick, ME",
    "ja": "メイン州 ブランズウィック",
    "name": "Great State of Maine Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-07-18",
@@ -149,7 +454,8 @@
    "place": "Pensacola Beach, FL",
    "ja": "フロリダ州 ペンサコーラビーチ",
    "name": "Pensacola Beach Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-08-01",
@@ -157,7 +463,8 @@
    "place": "Seattle, WA",
    "ja": "ワシントン州 シアトル",
    "name": "Boeing Seafair Air Show",
-   "url": "https://www.seafair.org/seafairairshow"
+   "url": "https://www.seafair.org/seafairairshow",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-08-08",
@@ -165,7 +472,8 @@
    "place": "JB Elmendorf-Richardson, AK",
    "ja": "アラスカ州 エルメンドーフ・リチャードソン統合基地",
    "name": "Arctic Thunder Air Show and Open House",
-   "url": "https://www.jber.jb.mil/Info/Arctic-Thunder-Open-House/"
+   "url": "https://www.jber.jb.mil/Info/Arctic-Thunder-Open-House/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-08-15",
@@ -173,7 +481,8 @@
    "place": "McMinnville, OR",
    "ja": "オレゴン州 マクミンビル",
    "name": "Oregon International Air Show",
-   "url": "https://oregonairshow.com/"
+   "url": "https://oregonairshow.com/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-08-22",
@@ -181,7 +490,8 @@
    "place": "Billings, MT",
    "ja": "モンタナ州 ビリングス",
    "name": "Yellowstone International Air Show",
-   "url": "https://www.yellowstoneairshow.com/"
+   "url": "https://www.yellowstoneairshow.com/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-08-29",
@@ -189,7 +499,8 @@
    "place": "Lake Charles, LA",
    "ja": "ルイジアナ州 レイクチャールズ",
    "name": "Thunder Over Louisiana Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-09-05",
@@ -197,7 +508,8 @@
    "place": "Cleveland, OH",
    "ja": "オハイオ州 クリーブランド",
    "name": "Cleveland National Air Show",
-   "url": "https://www.clevelandairshow.com/"
+   "url": "https://www.clevelandairshow.com/",
+   "page": "/events/2026midwest/"
   },
   {
    "start": "2026-09-19",
@@ -205,7 +517,8 @@
    "place": "NAS Oceana, VA",
    "ja": "バージニア州 オシアナ海軍航空基地",
    "name": "NAS Oceana Air Show",
-   "url": "https://www.oceanaairshow.com/"
+   "url": "https://www.oceanaairshow.com/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2026-09-26",
@@ -213,7 +526,8 @@
    "place": "MCAS Miramar, CA",
    "ja": "カリフォルニア州 ミラマー海兵隊航空基地",
    "name": "MCAS Miramar Air Show",
-   "url": "https://www.miramarairshow.com/"
+   "url": "https://www.miramarairshow.com/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-10-03",
@@ -221,7 +535,8 @@
    "place": "Grand Junction, CO",
    "ja": "コロラド州 グランドジャンクション",
    "name": "Grand Junction Air Show",
-   "url": "https://gjairshow.com/"
+   "url": "https://gjairshow.com/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-10-10",
@@ -229,7 +544,8 @@
    "place": "San Francisco, CA",
    "ja": "カリフォルニア州 サンフランシスコ",
    "name": "San Francisco Fleet Week",
-   "url": "https://fleetweeksf.org/air-show/"
+   "url": "https://fleetweeksf.org/air-show/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2026-10-17",
@@ -237,7 +553,8 @@
    "place": "NAS Jacksonville, FL",
    "ja": "フロリダ州 ジャクソンビル海軍航空基地",
    "name": "NAS Jacksonville Air Show",
-   "url": "https://www.nasjaxairshow.com/"
+   "url": "https://www.nasjaxairshow.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-10-24",
@@ -245,7 +562,8 @@
    "place": "El Paso, TX",
    "ja": "テキサス州 エルパソ",
    "name": "Amigo Airsho Inc",
-   "url": "https://www.amigoairsho.com/"
+   "url": "https://www.amigoairsho.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-10-31",
@@ -253,7 +571,8 @@
    "place": "Peachtree City, GA",
    "ja": "ジョージア州 ピーチツリーシティ",
    "name": "Air Dot Show Atlanta",
-   "url": "https://airshowatlanta.com/"
+   "url": "https://airshowatlanta.com/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2026-11-06",
@@ -261,7 +580,8 @@
    "place": "NAS Pensacola, FL",
    "ja": "フロリダ州 ペンサコーラ海軍航空基地",
    "name": "Blue Angels Homecoming Air Show",
-   "url": "https://www.naspensacolaairshow.org/"
+   "url": "https://www.naspensacolaairshow.org/",
+   "page": "/events/2026south/"
   },
   {
    "start": "2027-03-13",
@@ -269,7 +589,8 @@
    "place": "NAF El Centro, CA",
    "ja": "カリフォルニア州 エルセントロ海軍航空施設",
    "name": "NAF El Centro Festival of Flight",
-   "url": "https://www.elcentroairshow.com/"
+   "url": "https://www.elcentroairshow.com/",
+   "page": "/events/2025west/"
   },
   {
    "start": "2027-03-20",
@@ -277,7 +598,8 @@
    "place": "Sacramento, CA",
    "ja": "カリフォルニア州 サクラメント",
    "name": "California Capital Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025west/"
   },
   {
    "start": "2027-04-03",
@@ -285,7 +607,8 @@
    "place": "MCAS Beaufort, SC",
    "ja": "サウスカロライナ州 ボーフォート海兵隊航空基地",
    "name": "MCAS Beaufort Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025south/"
   },
   {
    "start": "2027-04-10",
@@ -293,7 +616,8 @@
    "place": "Lakeland, FL",
    "ja": "フロリダ州 レイクランド",
    "name": "Sun 'n Fun Aerospace Expo",
-   "url": ""
+   "url": "",
+   "page": "/events/2025south/"
   },
   {
    "start": "2027-04-17",
@@ -333,7 +657,8 @@
    "place": "Fort Lauderdale, FL",
    "ja": "フロリダ州 フォートローダーデール",
    "name": "Air Dot Show Fort Lauderdale",
-   "url": ""
+   "url": "",
+   "page": "/events/2025south/"
   },
   {
    "start": "2027-05-22",
@@ -349,7 +674,8 @@
    "place": "USNA, Annapolis, MD",
    "ja": "メリーランド州 米海軍兵学校（アナポリス）",
    "name": "U.S. Naval Academy Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026east/"
   },
   {
    "start": "2027-05-29",
@@ -365,7 +691,8 @@
    "place": "Eau Claire, WI",
    "ja": "ウィスコンシン州 オークレア",
    "name": "Chippewa Valley Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025midwest/"
   },
   {
    "start": "2027-06-19",
@@ -381,7 +708,8 @@
    "place": "Duluth, MN",
    "ja": "ミネソタ州 ダルース",
    "name": "Duluth Air and Aviation Expo",
-   "url": ""
+   "url": "",
+   "page": "/events/2025midwest/"
   },
   {
    "start": "2027-07-03",
@@ -397,7 +725,8 @@
    "place": "Columbus, OH",
    "ja": "オハイオ州 コロンバス",
    "name": "Columbus Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025midwest/"
   },
   {
    "start": "2027-07-17",
@@ -405,7 +734,8 @@
    "place": "Pensacola Beach, FL",
    "ja": "フロリダ州 ペンサコーラビーチ",
    "name": "Pensacola Beach Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2026south/"
   },
   {
    "start": "2027-07-24",
@@ -413,7 +743,8 @@
    "place": "Milwaukee, WI",
    "ja": "ウィスコンシン州 ミルウォーキー",
    "name": "Milwaukee Air and Water Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025midwest/"
   },
   {
    "start": "2027-08-07",
@@ -421,7 +752,8 @@
    "place": "Seattle, WA",
    "ja": "ワシントン州 シアトル",
    "name": "Boeing Seafair Air Show",
-   "url": "https://www.seafair.org/seafairairshow"
+   "url": "https://www.seafair.org/seafairairshow",
+   "page": "/events/2026west/"
   },
   {
    "start": "2027-08-14",
@@ -429,7 +761,8 @@
    "place": "MCAS Kaneohe Bay, HI",
    "ja": "ハワイ州 カネオヘベイ海兵隊航空基地",
    "name": "Kaneohe Bay Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025west/"
   },
   {
    "start": "2027-08-21",
@@ -453,7 +786,8 @@
    "place": "Branson, MO",
    "ja": "ミズーリ州 ブランソン",
    "name": "Branson Wings of Pride Air Show",
-   "url": ""
+   "url": "",
+   "page": "/events/2025midwest/"
   },
   {
    "start": "2027-09-18",
@@ -461,7 +795,8 @@
    "place": "NAS Oceana, VA",
    "ja": "バージニア州 オシアナ海軍航空基地",
    "name": "NAS Oceana Air Show",
-   "url": "https://www.oceanaairshow.com/"
+   "url": "https://www.oceanaairshow.com/",
+   "page": "/events/2026east/"
   },
   {
    "start": "2027-09-25",
@@ -469,7 +804,8 @@
    "place": "MCAS Miramar, CA",
    "ja": "カリフォルニア州 ミラマー海兵隊航空基地",
    "name": "MCAS Miramar Air Show",
-   "url": "https://www.miramarairshow.com/"
+   "url": "https://www.miramarairshow.com/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2027-10-02",
@@ -485,7 +821,8 @@
    "place": "San Francisco, CA",
    "ja": "カリフォルニア州 サンフランシスコ",
    "name": "San Francisco Fleet Week",
-   "url": "https://fleetweeksf.org/air-show/"
+   "url": "https://fleetweeksf.org/air-show/",
+   "page": "/events/2026west/"
   },
   {
    "start": "2027-10-16",
@@ -517,7 +854,8 @@
    "place": "NAS Pensacola, FL",
    "ja": "フロリダ州 ペンサコーラ海軍航空基地",
    "name": "Blue Angels Homecoming Air Show",
-   "url": "https://www.naspensacolaairshow.org/"
+   "url": "https://www.naspensacolaairshow.org/",
+   "page": "/events/2026south/"
   }
  ]
 }
