@@ -77,7 +77,21 @@
    "name": "",
    "url": "",
    "ja": "フロリダ州 フォートローダーデール",
-   "page": "/events/2025south/"
+   "page": "/events/2025south/",
+   "videos": [
+    {
+     "id": "wzI2IGKduic",
+     "title": "The Blue Angels headline the 2025 Air Dot Show Tour! Don’t miss them at the  FortLauderdaleAirShow!",
+     "published": "2025-04-29",
+     "channel": "Air Dot Show Tour"
+    },
+    {
+     "id": "3982Afe3IHU",
+     "title": "TURN AND BURN! 🔥 Blue Angels Solo 5️⃣ Minimum Radius Turn at Fort Lauderdale Air Show! 🏝️",
+     "published": "2025-05-07",
+     "channel": "Air Dot Show Tour"
+    }
+   ]
   },
   {
    "start": "2025-05-17",
@@ -401,7 +415,15 @@
    "ja": "ミズーリ州 チェスターフィールド",
    "name": "Spirit of St. Louis Air Show & STEM Expo",
    "url": "https://spirit-airshow.com/",
-   "page": "/events/2026midwest/"
+   "page": "/events/2026midwest/",
+   "videos": [
+    {
+     "id": "51jwkGvbDzQ",
+     "title": "2026 Spirit of St. Louis Airshow & STEM Expo",
+     "published": "2026-07-14",
+     "channel": "Spirit of St. Louis Air Show & STEM Expo"
+    }
+   ]
   },
   {
    "start": "2026-06-13",

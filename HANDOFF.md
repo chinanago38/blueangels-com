@@ -1,4 +1,5 @@
 # HANDOFF
+- 2026-11-27 公式・主催の YouTube 動画（埋め込み可の公開動画）を3本選んで tools/events.json に入れた（seo-system/lib/gh-videos.js）。次：地域の行事の面ができると、その面に表示される。
 - 2026-11-27 2025年の公式の予定を tools/events.json に足し、行事の面（/events/）と動画の置き場を用意した。次：行事の面は seo-system/tools/gh-grow.js が作る。
 - 2026-11-27 トップの絵の下に「次の展示飛行」（公式の予定 tools/events.json・日が過ぎると自動で次へ・過ぎた分は一覧のアーカイブへ）。トップの絵が古い見た目の指定でも切れないようにした。次：公式の予定が変わったら tools/events.json を直して build。
 - 2026-11-27 写真カードと「要点の箱・手順・よくある質問」の見た目を足し、Commons の自由ライセンスの写真を 0 面に割り当てた（tools/photos/picked.tsv）。次：面の追加と箱の追記は seo-system/tools/gh-grow.js。
