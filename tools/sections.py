@@ -1,8 +1,8 @@
-"""本文の節のうち、写真も表も箱も無い節に、写真を1枚ずつ置く。写真は tools/photos/section.tsv（米軍の公式写真・米政府の著作物。同じ写真はサイトで1回）。"""
+"""本文の節のうち、写真の無い節に、写真を1枚ずつ置く。写真は tools/photos/section.tsv（米軍の公式写真・米政府の著作物。同じ写真はサイトで1回）。"""
 import html, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VISUAL = re.compile(r'<img |<table|class="(points|steps|faq|cards|gallery|nextshow|ns-|yt|ev-grid|bars|bignum|tl)|<figure')
+VISUAL = re.compile(r'<img |<figure|class="(cards|gallery|nextshow|yt|ev-grid)|<h2>いま読めるページ')  # 表や箱のある節にも写真を置く（写真の無い節に1枚ずつ。面の一覧の節は除く）
 
 def rows():
     out = {}

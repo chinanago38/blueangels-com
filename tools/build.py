@@ -354,6 +354,7 @@ def next_events():
 def photo_wall():
     global PHOTOS
     if PHOTOS is None: PHOTOS = load_photos(); dedupe_photos()
+    if any(u == "/" for u in sections.rows()): return ""  # トップの節に写真がある時は、写真の節を重ねない
     if carded_links(): return ""  # トップに写真カードの一覧がある時は、写真の節を重ねない
     items = []
     for u in sorted(PHOTOS):
