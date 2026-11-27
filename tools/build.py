@@ -10,7 +10,7 @@ import events
 import sections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://xn--hckb2cf5l4ed5d5d.com"
-CSS_VER = "20261127l"
+CSS_VER = "20261127m"
 AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1061443138303693" crossorigin="anonymous"></script>'
 NAV = [("2027年の予定", "/schedule/2027/")]
 SECTION_NAME = {"schedule": ("スケジュール", "/schedule/")}

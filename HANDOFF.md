@@ -1,4 +1,5 @@
 # HANDOFF
+- 2026-11-27 次の展示飛行の欄は直近の4件だけを出し、予定が残る間は「公式発表待ち」の文と先の行事を本文に入れない（誤表示の直し）
 - 2026-11-27 本文の節に米軍の公式写真（米政府の著作物・tools/photos/section.tsv）を 8 枚置いた。文字だけの節の残り 0。次：新しい面は seo-system/tools/gh-grow.js が同じように置く。
 - 2026-11-27 公式・主催の YouTube 動画（埋め込み可の公開動画）を3本選んで tools/events.json に入れた（seo-system/lib/gh-videos.js）。次：地域の行事の面ができると、その面に表示される。
 - 2026-11-27 2025年の公式の予定を tools/events.json に足し、行事の面（/events/）と動画の置き場を用意した。次：行事の面は seo-system/tools/gh-grow.js が作る。
