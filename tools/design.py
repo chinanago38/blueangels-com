@@ -388,13 +388,13 @@ def curate(url, root):
     data = json.load(open(f, encoding="utf-8"))
     page = data.get(url)
     if page is None: return
-    hero = next((n for n in root.walk() if "page-hero" in n.classes()), None)
+    hero = next((n for n in root.walk() if set(n.classes()) & {"page-hero", "tophero"}), None)
     if "hero" in page and hero is not None:
         h = page["hero"]
         for k in [k for k in hero.kids if isinstance(k, Node) and "credit" in k.classes()]: hero.kids.remove(k)
         hero.start = re.sub(r'\sstyle="[^"]*"', "", hero.start).replace(" photo-hero", "")
         if h:
-            hero.add_class("photo-hero")
+            if "page-hero" in hero.classes(): hero.add_class("photo-hero")
             hero.add_attr("style", f'background-image:linear-gradient(180deg,rgba(6,22,44,.35),rgba(6,22,44,.88)),url({h["src"]})')
             hero.kids.append(parse(f'<p class="credit">{html.escape(h["alt"])}　{credit_html(h)}</p>').kids[0])
     for n in [n for n in root.walk() if commons_photo(n)]:
