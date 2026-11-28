@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import design
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://xn--hckb2cf5l4ed5d5d.com"
-CSS_VER = "20261129d"
+CSS_VER = "20261129e"
 AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1061443138303693" crossorigin="anonymous"></script>'
 NAV = [("2027年の予定", "/schedule/2027/"), ("行事の案内", "/events/")]
 SECTION_NAME = {"schedule": ("スケジュール", "/schedule/"), "events": ("行事の案内", "/events/")}
@@ -498,12 +498,12 @@ def render(url, title, desc, body):
 <main><div class="wrap">
 {main}</div></main>
 
-<footer class="site"><div class="wrap">
+<footer class="site"><div class="wrap foot"><div class="ft">
   <p>ブルーエンジェルス.com は、米海軍ブルーエンジェルスの情報を米海軍の公式発表から日本語でまとめた情報サイトです。米海軍・米国政府とは関係のない、ちんあなご編集部のサイトです。</p>
   <p>{" ・ ".join(f'<a href="{u}">{t}</a>' for t, u in [("トップ", "/")] + NAV)}</p>
   <p><a href="/operator/">運営者情報</a> ・ <a href="/editorial-policy/">編集方針</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/privacy/">プライバシーポリシー</a> ・ <a href="/disclaimer/">免責事項</a></p>
   <p>© 2026 ブルーエンジェルス.com</p>
-</div></footer>
+</div><img class="mark" src="/assets/chinanago-mark.webp" width="80" height="80" alt="ちんあなご編集部のマーク" loading="lazy" decoding="async"></div></footer>
 </body>
 </html>
 """

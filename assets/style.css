@@ -280,3 +280,9 @@ ol.steps li::before{content:counter(st);position:absolute;left:12px;top:10px;wid
 .yt-play span::after{content:"";position:absolute;left:25px;top:13px;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
 .yt iframe{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:12px}
 .yt figcaption{font-size:.82rem;color:#41536b;padding:6px 2px;line-height:1.5}
+/* フッターの右端のちんあなごマーク（2026-11-29） */
+footer.site .foot{display:flex;align-items:flex-end;gap:16px}
+footer.site .ft{flex:1;min-width:0}
+footer.site .mark{flex:none;width:80px;height:80px;display:block;filter:drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff)}
+@media(max-width:640px){footer.site .mark{width:64px;height:64px}}
+footer.site .ft p:nth-of-type(2),footer.site .ft p:nth-of-type(3){margin:10px 0}
