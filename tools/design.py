@@ -87,9 +87,12 @@ PATHS = {
     "shield": "M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z",
     "tool": "M14.5 6.5a4 4 0 005 5L11 20a2.1 2.1 0 01-3-3l8.5-8.5M14.5 6.5l3-3a5 5 0 00-6.5 6.5",
     "check": "M4 12.5l5 5L20 6.5",
+    "mail": "M3 6h18v12H3zM3 7l9 6 9-6",
+    "book": "M4 5h6a2 2 0 012 2v13a2 2 0 00-2-2H4zM20 5h-6a2 2 0 00-2 2v13a2 2 0 012-2h6z",
     "star": "M12 3l2.7 5.8 6.3.8-4.6 4.4 1.2 6.3L12 17.2 6.4 20.3l1.2-6.3L3 9.6l6.3-.8z",
 }
 RULES = [
+    ("mail", r"連絡|問い合わせ|メール|お受け|お答え"), ("shield", r"プライバシー|個人情報|Cookie|広告|アクセス解析|著作権|免責"), ("book", r"出典|方針|運営|情報の|参考|訂正"),
     ("question", r"よくある|質問|ですか|FAQ"), ("warn", r"注意|気をつけ|気を付け|中止"),
     ("yen", r"費用|料金|金額|限度|高額|保険|支払"), ("cross", r"病院|手術|医療|治療|術|診療|入院"),
     ("calendar", r"日程|予定|スケジュール|歴史|歩み|年度|いつ|経緯|時期|季節|月"), ("pin", r"場所|行き方|基地|空港|会場|地域|国|日本|拠点|見に行"),
@@ -338,6 +341,24 @@ def extra_photos(url, root, main):
         i = next((j + 1 for j, k in enumerate(sec.kids) if isinstance(k, Node) and k.tag == "h2"), 0)
         sec.kids.insert(i, fig)
 
+def page_photo(url, root):
+    """面に割り当てた写真（tools/design/photos.json）を、見出しの下に置く。出典は写真のすぐ下"""
+    f = os.path.join(ROOT, "tools", "design", "photos.json")
+    if not os.path.exists(f): return
+    p = json.load(open(f, encoding="utf-8")).get(url)
+    if not p: return
+    e = {k: html.escape(v, quote=True) for k, v in p.items()}
+    lic = f'<a href="{e["licenseUrl"]}" rel="noopener license" target="_blank">{e["license"]}</a>' if e.get("licenseUrl") else e["license"]
+    fig = parse(f'<figure class="photo dz-photo" data-dz="add"><img src="{e["src"]}" alt="{e["alt"]}" loading="lazy" decoding="async">'
+                f'<figcaption>写真：{e["author"]}／<a href="{e["page"]}" rel="noopener" target="_blank">Wikimedia Commons</a>（{lic}）</figcaption></figure>').kids[0]
+    for box in [root] + list(root.walk()):
+        for i, k in enumerate(box.kids):
+            if isinstance(k, Node) and "page-hero" in k.classes():
+                box.kids.insert(i + 1, fig); return
+    box = next((n for n in root.walk() if "wrap" in n.classes()), root)
+    i = next((j for j, k in enumerate(box.kids) if isinstance(k, Node) and k.tag == "section"), 0)
+    box.kids.insert(i, fig)
+
 def apply(url, main):
     root = parse(main)
     state = {"n": 0, "caution": 0, "headings": load_headings(), "used": set()}
@@ -354,4 +375,5 @@ def apply(url, main):
                 n.kids = kids
     lead_blocks(root)
     extra_photos(url, root, main)
+    page_photo(url, root)
     return root.out()
