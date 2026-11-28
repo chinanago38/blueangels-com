@@ -407,7 +407,8 @@ def curate(url, root):
             i = box.kids.index(hero) + 1 if hero is not None else 0
         else:
             h2 = next((n for n in heads if e["head"] in n.text()), None)
-            if h2 is None: raise ValueError(f'{url}：見出し「{e["head"]}」が無い')
+            if h2 is None:  # 自動で出入りする節（行事・ニュース）が無い日は、その写真を置かずに先へ進む
+                print(f'curate: {url} の見出し「{e["head"]}」が無いので写真を置かない'); continue
             box = parent_of(root, h2)
             i = box.kids.index(h2) + 1
         while i < len(box.kids) and isinstance(box.kids[i], Node) and "dz-photo" in box.kids[i].classes(): i += 1
