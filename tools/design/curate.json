@@ -1,0 +1,385 @@
+{
+ "/contact/": {
+  "hero": null,
+  "sec": [
+   {
+    "head": "",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/US_Navy_031011-N-8029P-003_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg/960px-US_Navy_031011-N-8029P-003_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_031011-N-8029P-003_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg",
+    "author": "U.S. Navy photo by Photographer’s Mate 3rd Class Ramon Preciado.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "ゴールデンゲート橋の前を飛ぶブルーエンジェルス（2003年10月）"
+   }
+  ],
+  "gallery": []
+ },
+ "/disclaimer/": {
+  "hero": null,
+  "sec": [
+   {
+    "head": "",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/US_Navy_031011-N-8029P-005_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg/960px-US_Navy_031011-N-8029P-005_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_031011-N-8029P-005_Navy_Blue_Angels_perform_flight_demonstrations_over_the_Golden_Gate_Bridge_in_San_Francisco_during_Fleet_Week_2003.jpg",
+    "author": "U.S. Navy photo by Photographer’s Mate 3rd Class Ramon Preciado.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "煙の弧を描いて飛ぶ編隊（2003年10月、サンフランシスコ）"
+   }
+  ],
+  "gallery": []
+ },
+ "/editorial-policy/": {
+  "hero": null,
+  "sec": [
+   {
+    "head": "",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/US_Navy_030418-N-4534A-001_The_Blue_Angels_Diamond_formation_performs_the_Diamond_Dirty_Loop.jpg/960px-US_Navy_030418-N-4534A-001_The_Blue_Angels_Diamond_formation_performs_the_Diamond_Dirty_Loop.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_030418-N-4534A-001_The_Blue_Angels_Diamond_formation_performs_the_Diamond_Dirty_Loop.jpg",
+    "author": "U.S. Navy photo by Photographer's Mate 1st Class Casey Akins.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "背面と正立で飛ぶダイヤモンド隊形（2003年4月、ペンサコーラ）"
+   }
+  ],
+  "gallery": []
+ },
+ "/events/": {
+  "hero": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Thunderbirds%2C_Blue_Angels_perform_%27Super_Delta%27_210302-F-JV039-9090.jpg/1280px-Thunderbirds%2C_Blue_Angels_perform_%27Super_Delta%27_210302-F-JV039-9090.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Thunderbirds,_Blue_Angels_perform_%27Super_Delta%27_210302-F-JV039-9090.jpg",
+   "author": "Staff Sgt. Andrew D. Sarver",
+   "license": "パブリックドメイン",
+   "licenseUrl": "",
+   "alt": "サンダーバーズと組んだ合同の編隊とファット・アルバート（2021年）"
+  },
+  "sec": [
+   {
+    "head": "年別・地域別の展示飛行",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/US_Navy_021101-N-2329H-261_Blue_Angels_Six_and_Seven_take_flight.jpg/1280px-US_Navy_021101-N-2329H-261_Blue_Angels_Six_and_Seven_take_flight.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_021101-N-2329H-261_Blue_Angels_Six_and_Seven_take_flight.jpg",
+    "author": "U.S. Navy photo",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "離陸する6番機と7番機（2002年11月、ジャクソンビル）"
+   },
+   {
+    "head": "展示シーズンの組み立て",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/US_Navy_031108-N-5862D-181_The_U.S._Navy_Flight_Demonstration_Team%2C_the_Blue_Angels_perform_in_the_final_show_of_the_2003_season.jpg/1280px-US_Navy_031108-N-5862D-181_The_U.S._Navy_Flight_Demonstration_Team%2C_the_Blue_Angels_perform_in_the_final_show_of_the_2003_season.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_031108-N-5862D-181_The_U.S._Navy_Flight_Demonstration_Team,_the_Blue_Angels_perform_in_the_final_show_of_the_2003_season.jpg",
+    "author": "U.S. Navy photo by Chief Photographer's Mate Chris Desmond.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "煙を引いて並ぶ編隊（2003年11月、ペンサコーラ）"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Blue_Angels_in_delta_formation_during_Fleet_Week_2018.jpg/1280px-Blue_Angels_in_delta_formation_during_Fleet_Week_2018.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Angels_in_delta_formation_during_Fleet_Week_2018.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "alt": "フリートウィークのデルタ隊形（2018年10月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Blue_Angels_NAS_Jacksonville_Air_Show_2452.JPG/1280px-Blue_Angels_NAS_Jacksonville_Air_Show_2452.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Angels_NAS_Jacksonville_Air_Show_2452.JPG",
+    "author": "“Jonathan Zander ( Digon3 )”",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "旋回する輸送機ファット・アルバート（2008年10月、ジャクソンビル）"
+   }
+  ]
+ },
+ "/": {
+  "sec": [
+   {
+    "head": "どんなチームか",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Blue_Angels_Alexander_P._Armatas_performs_a_pitch-up_break.jpg/1280px-Blue_Angels_Alexander_P._Armatas_performs_a_pitch-up_break.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Angels_Alexander_P._Armatas_performs_a_pitch-up_break.jpg",
+    "author": "Senior Airman Caleb Roland",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "編隊から分かれる隊長機（2023年4月）"
+   },
+   {
+    "head": "スーパーホーネット",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blue_Angels_pilot_Alexander_Armatas_prepares_for_training_flight.jpg/1280px-Blue_Angels_pilot_Alexander_Armatas_prepares_for_training_flight.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Angels_pilot_Alexander_Armatas_prepares_for_training_flight.jpg",
+    "author": "U.S. Navy",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "F/A-18の操縦席と機体の Blue Angels の文字（2023年1月、エルセントロ）"
+   },
+   {
+    "head": "展示飛行の見どころ",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/US_Navy_110701-N-IR859-025_Lt._Ben_Walborn%2C_lead_solo_pilot_for_the_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_performs_a_Sneak_Pass.jpg/1280px-US_Navy_110701-N-IR859-025_Lt._Ben_Walborn%2C_lead_solo_pilot_for_the_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_performs_a_Sneak_Pass.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_110701-N-IR859-025_Lt._Ben_Walborn,_lead_solo_pilot_for_the_U.S._Navy_flight_demonstration_squadron,_the_Blue_Angels,_performs_a_Sneak_Pass.jpg",
+    "author": "MC2 Jen Blake",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "機体のまわりに雲をまとって飛ぶ5番機（2011年7月）"
+   },
+   {
+    "head": "ファット・アルバート",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/170000_Blue_Angels_Fat_Albert%2C_C-130J_Super_Hercules_%2854021776271%29.jpg/960px-170000_Blue_Angels_Fat_Albert%2C_C-130J_Super_Hercules_%2854021776271%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:170000_Blue_Angels_Fat_Albert,_C-130J_Super_Hercules_(54021776271).jpg",
+    "author": "Tomás Del Coro from Fabulous Las Vegas, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "alt": "地上のファット・アルバート C-130J（2024年9月、オシアナ海軍航空基地）"
+   },
+   {
+    "head": "隊員の構成",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Flickr_-_Official_U.S._Navy_Imagery_-_Blue_Angels_crew_chief_salutes_pilot..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_Blue_Angels_crew_chief_salutes_pilot..jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Blue_Angels_crew_chief_salutes_pilot..jpg",
+    "author": "MC3 Julia A. Casper",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "機体の前で敬礼する機付長（2011年3月、エルセントロ）"
+   },
+   {
+    "head": "歴史と歴代の使用機",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Six_U.S._Navy_Blue_Angels_Douglas_A-4F_Skyhawk_fly_in_delta_formation_over_Naval_Air_Station_Moffett_Field%2C_California_%28USA%29%2C_4_July_1985_%286449793%29.jpg/1280px-Six_U.S._Navy_Blue_Angels_Douglas_A-4F_Skyhawk_fly_in_delta_formation_over_Naval_Air_Station_Moffett_Field%2C_California_%28USA%29%2C_4_July_1985_%286449793%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Six_U.S._Navy_Blue_Angels_Douglas_A-4F_Skyhawk_fly_in_delta_formation_over_Naval_Air_Station_Moffett_Field,_California_(USA),_4_July_1985_(6449793).jpg",
+    "author": "PH3 Xanos",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "煙を引いて飛ぶ6機のA-4Fスカイホーク"
+   },
+   {
+    "head": "2027年の展示飛行",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/US_Navy_071007-N-8878B-400_Blue_Angels_fly_over_San_Francisco_Bay_during_Fleet_Week_San_Francisco.jpg/1280px-US_Navy_071007-N-8878B-400_Blue_Angels_fly_over_San_Francisco_Bay_during_Fleet_Week_San_Francisco.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_071007-N-8878B-400_Blue_Angels_fly_over_San_Francisco_Bay_during_Fleet_Week_San_Francisco.jpg",
+    "author": "MC Seaman Michael C. Barton",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "サンフランシスコ湾の上を飛ぶ4機（2007年10月）"
+   },
+   {
+    "head": "2026年の展示飛行",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_Seattle..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_Seattle..jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_Seattle..jpg",
+    "author": "MC1 Rachel McMarr",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "シアトルの湖の上を飛ぶ5番機（2012年8月）"
+   },
+   {
+    "head": "練習の見学",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Lt._Amanda_Lee%2C_assigned_to_the_Navy_Flight_Demonstration_Squadron%2C_the_Blue_Angels%2C_prepares_for_takeoff_prior_to_a_training_flight.jpg/1280px-Lt._Amanda_Lee%2C_assigned_to_the_Navy_Flight_Demonstration_Squadron%2C_the_Blue_Angels%2C_prepares_for_takeoff_prior_to_a_training_flight.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lt._Amanda_Lee,_assigned_to_the_Navy_Flight_Demonstration_Squadron,_the_Blue_Angels,_prepares_for_takeoff_prior_to_a_training_flight.jpg",
+    "author": "Petty Officer 1st Class Cody Deccio",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "操縦席に乗り込む左翼担当のパイロット（2023年1月）"
+   },
+   {
+    "head": "日本から見に行く",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Blue_Angels_Hornets_at_Marine_Corps_Air_Station_Kaneohe_Bay_21_Sep_2010.jpg/1280px-Blue_Angels_Hornets_at_Marine_Corps_Air_Station_Kaneohe_Bay_21_Sep_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Angels_Hornets_at_Marine_Corps_Air_Station_Kaneohe_Bay_21_Sep_2010.jpg",
+    "author": "Lance Cpl. Reece E. Lodder",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "ハワイの基地に並んだ機体（カネオヘ・ベイ）"
+   },
+   {
+    "head": "よくある質問",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/US_Navy_100924-N-5476H-301_The_U.S._Navy_flight_demonstration_team%2C_the_Blue_Angels%2C_perform_during_the_Kaneohe_Bay_Air_Show_2010.jpg/1280px-US_Navy_100924-N-5476H-301_The_U.S._Navy_flight_demonstration_team%2C_the_Blue_Angels%2C_perform_during_the_Kaneohe_Bay_Air_Show_2010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100924-N-5476H-301_The_U.S._Navy_flight_demonstration_team,_the_Blue_Angels,_perform_during_the_Kaneohe_Bay_Air_Show_2010.jpg",
+    "author": "MC2 Michael Hight",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "横に重なって飛ぶ4機（2010年9月、ハワイ）"
+   },
+   {
+    "head": "このサイトについて",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/US_Navy_021101-N-2329H-255_The_U.S_Navy%27s_flight_demonstration_team%2C_the_Blue_Angels%2C_take_flight.jpg/1280px-US_Navy_021101-N-2329H-255_The_U.S_Navy%27s_flight_demonstration_team%2C_the_Blue_Angels%2C_take_flight.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_021101-N-2329H-255_The_U.S_Navy%27s_flight_demonstration_team,_the_Blue_Angels,_take_flight.jpg",
+    "author": "U.S. Navy Photo by Photographer’s Mate 1st Class Darryl S. Herring.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "ジャクソンビルで離陸する編隊（2002年11月）"
+   }
+  ],
+  "gallery": []
+ },
+ "/operator/": {
+  "hero": null,
+  "sec": [
+   {
+    "head": "",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/US_Navy_051001-N-6843I-648_The_U.S._Navy_flight_demonstration_team%2C_the_Blue_Angels%2C_fly_their_F-A-18A_Hornets_over_San_Francisco%27s_Golden_Gate_Bridge.jpg/960px-US_Navy_051001-N-6843I-648_The_U.S._Navy_flight_demonstration_team%2C_the_Blue_Angels%2C_fly_their_F-A-18A_Hornets_over_San_Francisco%27s_Golden_Gate_Bridge.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_051001-N-6843I-648_The_U.S._Navy_flight_demonstration_team,_the_Blue_Angels,_fly_their_F-A-18A_Hornets_over_San_Francisco%27s_Golden_Gate_Bridge.jpg",
+    "author": "U.S. Navy photo by Journalist Seaman S. C. Irwin",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "サンフランシスコの橋の上を飛ぶ編隊（2005年10月）"
+   }
+  ],
+  "gallery": []
+ },
+ "/privacy/": {
+  "hero": null,
+  "sec": [
+   {
+    "head": "",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_a_diamond_formation_maneuver..jpg/960px-Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_a_diamond_formation_maneuver..jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_a_diamond_formation_maneuver..jpg",
+    "author": "Official Navy Page from United States of America MC1 Rachel McMarr/U.S",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "畑の上を背面で飛ぶ機体（2012年2月、エルセントロ）"
+   }
+  ],
+  "gallery": []
+ },
+ "/schedule/2027/": {
+  "hero": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Blue_Angel_Boeing_Super_Hornets_Conducting_Pitchup_Break.jpg/1280px-Blue_Angel_Boeing_Super_Hornets_Conducting_Pitchup_Break.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Blue_Angel_Boeing_Super_Hornets_Conducting_Pitchup_Break.jpg",
+   "author": "USN Flight demonstration Squadron Public affairs office.",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "alt": "デルタ隊形で分かれ始めるスーパーホーネット（2021年1月撮影）"
+  },
+  "sec": [
+   {
+    "head": "基本情報",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/US_Navy_101122-N-0092J-018_Lt._Dave_Tickle%2C_narrator_for_the_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_and_Lt._Todd_Royles%2C_events.jpg/1280px-US_Navy_101122-N-0092J-018_Lt._Dave_Tickle%2C_narrator_for_the_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_and_Lt._Todd_Royles%2C_events.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_101122-N-0092J-018_Lt._Dave_Tickle,_narrator_for_the_U.S._Navy_flight_demonstration_squadron,_the_Blue_Angels,_and_Lt._Todd_Royles,_events.jpg",
+    "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Andrew John",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "操縦席で準備する隊員（2010年11月、ペンサコーラ）"
+   },
+   {
+    "head": "月ごとのスケジュール",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/US_Navy_110619-N-BA418-022_The_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_perform_the.jpg/1280px-US_Navy_110619-N-BA418-022_The_U.S._Navy_flight_demonstration_squadron%2C_the_Blue_Angels%2C_perform_the.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_110619-N-BA418-022_The_U.S._Navy_flight_demonstration_squadron,_the_Blue_Angels,_perform_the.jpg",
+    "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Andrew John",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "上下に重なって飛ぶ5番機と6番機（2011年6月）"
+   },
+   {
+    "head": "日本から見に行くなら",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_California..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_California..jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_perform_in_California..jpg",
+    "author": "Official Navy Page from United States of America MC1 James R. Evans/U.",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "密集して飛ぶF/A-18の編隊（2012年10月、サンディエゴ）"
+   },
+   {
+    "head": "発表の経緯",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/US_Navy_041113-N-4204E-621_The_U.S._Navy_Blue_Angels_flight_demonstration_team%2C_pass_in_formation_over_the_crowd_at_the_Blue_Angels%27_Homecoming_Air_Show_in_Pensacola%2C_Fla.jpg/1280px-thumbnail.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_041113-N-4204E-621_The_U.S._Navy_Blue_Angels_flight_demonstration_team,_pass_in_formation_over_the_crowd_at_the_Blue_Angels%27_Homecoming_Air_Show_in_Pensacola,_Fla.jpg",
+    "author": "U.S. Navy photo by Photographer's Mate 2nd Class Mark A. Ebert",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "脚を出して飛ぶ編隊（2004年11月、ペンサコーラ）"
+   },
+   {
+    "head": "見に行く前の注意",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_fly_in_formation..jpg/1280px-Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_fly_in_formation..jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_The_Blue_Angels_fly_in_formation..jpg",
+    "author": "Official Navy Page from United States of America MC2 Daniel Barker/U.S",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "階段状に並んで飛ぶ4機（2012年9月、ハワイ）"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/180727-N-VE701-1106_%2843692426612%29.jpg/960px-180727-N-VE701-1106_%2843692426612%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:180727-N-VE701-1106_(43692426612).jpg",
+    "author": "U.S. Department of Defense Current Photos Petty Officer 2nd Class Davi",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "展示飛行を見上げる米海軍の水兵（2018年7月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/180825-Z-ZH615-002_%2844323020722%29.jpg/960px-180825-Z-ZH615-002_%2844323020722%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:180825-Z-ZH615-002_(44323020722).jpg",
+    "author": "139th Airlift Wing",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "展示飛行を撮る観客（2018年8月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/200520-N-BD231-0917_%2849917418717%29.jpg/960px-200520-N-BD231-0917_%2849917418717%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-BD231-0917_(49917418717).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "米海軍兵学校の上を飛ぶ編隊（2020年5月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/200520-N-BD231-0952_%2849917548027%29.jpg/960px-200520-N-BD231-0952_%2849917548027%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-BD231-0952_(49917548027).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "制帽が舞う米海軍兵学校の卒業生と編隊（2020年5月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/200520-N-ID678-0209_%2849917118496%29.jpg/960px-200520-N-ID678-0209_%2849917118496%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-ID678-0209_(49917118496).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "米海軍兵学校の建物の上を飛ぶ6機（2020年5月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/200520-N-MC499-0583_%2849917418967%29.jpg/960px-200520-N-MC499-0583_%2849917418967%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-MC499-0583_(49917418967).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "卒業生の真上を通る編隊（2020年5月、アナポリス）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/200520-N-MC499-0602_%2849917419187%29.jpg/960px-200520-N-MC499-0602_%2849917419187%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-MC499-0602_(49917419187).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "制帽を投げる卒業生と分かれて飛ぶ機体（2020年5月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/200520-N-UG979-0095_%2849917119396%29.jpg/960px-200520-N-UG979-0095_%2849917119396%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:200520-N-UG979-0095_(49917119396).jpg",
+    "author": "United States Naval Academy Photo Archive",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "煙を引いて上昇する6機（2020年5月、アナポリス）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/201212-N-OY339-1106.jpg/960px-201212-N-OY339-1106.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:201212-N-OY339-1106.jpg",
+    "author": "Mass Communication Specialist 2nd Class Christopher Gordon",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "空中給油機KC-46と飛ぶ機体（2020年12月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/201212-N-OY339-1299.jpg/960px-201212-N-OY339-1299.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:201212-N-OY339-1299.jpg",
+    "author": "Mass Communication Specialist 2nd Class Christopher Gordon",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "空中給油機と編隊を組んで飛ぶ機体（2020年12月）"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/201212-N-OY339-1414.jpg/960px-201212-N-OY339-1414.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:201212-N-OY339-1414.jpg",
+    "author": "Mass Communication Specialist 2nd Class Christopher Gordon",
+    "license": "パブリックドメイン",
+    "licenseUrl": "",
+    "alt": "雲の上で給油を受ける機体（2020年12月）"
+   }
+  ]
+ }
+}

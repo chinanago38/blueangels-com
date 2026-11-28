@@ -359,6 +359,103 @@ def page_photo(url, root):
     i = next((j for j, k in enumerate(box.kids) if isinstance(k, Node) and k.tag == "section"), 0)
     box.kids.insert(i, fig)
 
+def credit_html(e):
+    v = {k: html.escape(str(e.get(k, "")), quote=True) for k in ("author", "license", "licenseUrl", "page")}
+    lic = f'<a href="{v["licenseUrl"]}" rel="noopener license" target="_blank">{v["license"]}</a>' if v["licenseUrl"].startswith("http") else v["license"]
+    return f'写真：{v["author"]}／<a href="{v["page"]}" rel="noopener" target="_blank">Wikimedia Commons</a>（{lic}）'
+
+def curated_figure(e, cap=True):
+    a = html.escape(e["alt"], quote=True)
+    img = f'<img src="{html.escape(e["src"], quote=True)}" alt="{a}" loading="lazy" decoding="async">'
+    return parse(f'<figure class="photo dz-photo" data-dz="add">{img}<figcaption>{a}　{credit_html(e)}</figcaption></figure>' if cap else f'<figure>{img}</figure>').kids[0]
+
+def parent_of(root, node):
+    for box in [root] + list(root.walk()):
+        if node in box.kids: return box
+    return None
+
+def drop(root, node):
+    p = parent_of(root, node)
+    if p is not None: p.kids.remove(node)
+
+def commons_photo(n):
+    return n.tag == "figure" and any("wikimedia.org" in i.start for i in n.walk() if i.tag == "img")
+
+def curate(url, root):
+    """面ごとの写真を tools/design/curate.json のとおりにする（中身を1枚ずつ見て決めた表）。表にある面は、前の仕組みが置いた Commons の写真を全部外してから置く"""
+    f = os.path.join(ROOT, "tools", "design", "curate.json")
+    if not os.path.exists(f): return
+    data = json.load(open(f, encoding="utf-8"))
+    page = data.get(url)
+    if page is None: return
+    hero = next((n for n in root.walk() if "page-hero" in n.classes()), None)
+    if "hero" in page and hero is not None:
+        h = page["hero"]
+        for k in [k for k in hero.kids if isinstance(k, Node) and "credit" in k.classes()]: hero.kids.remove(k)
+        hero.start = re.sub(r'\sstyle="[^"]*"', "", hero.start).replace(" photo-hero", "")
+        if h:
+            hero.add_class("photo-hero")
+            hero.add_attr("style", f'background-image:linear-gradient(180deg,rgba(6,22,44,.35),rgba(6,22,44,.88)),url({h["src"]})')
+            hero.kids.append(parse(f'<p class="credit">{html.escape(h["alt"])}　{credit_html(h)}</p>').kids[0])
+    for n in [n for n in root.walk() if commons_photo(n)]:
+        drop(root, n)
+    # 節の写真
+    heads = [n for n in root.walk() if n.tag == "h2"]
+    for e in page.get("sec", []):
+        if e["head"] == "":
+            box = parent_of(root, hero) if hero is not None else next((n for n in root.walk() if "wrap" in n.classes()), root)
+            i = box.kids.index(hero) + 1 if hero is not None else 0
+        else:
+            h2 = next((n for n in heads if e["head"] in n.text()), None)
+            if h2 is None: raise ValueError(f'{url}：見出し「{e["head"]}」が無い')
+            box = parent_of(root, h2)
+            i = box.kids.index(h2) + 1
+        while i < len(box.kids) and isinstance(box.kids[i], Node) and "dz-photo" in box.kids[i].classes(): i += 1
+        box.kids.insert(i, curated_figure(e))
+    # ギャラリー（無くなったら節ごと外す）
+    grids = [n for n in root.walk() if n.tag == "div" and "gallery" in n.classes()]
+    gal = page.get("gallery", [])
+    figs = []
+    for e in gal:
+        fig = curated_figure(e, cap=False)
+        a = html.escape(e["alt"], quote=True)
+        fig.kids.append(parse(f'<figcaption><b>{a}</b> {credit_html(e)}</figcaption>').kids[0])
+        figs.append(fig)
+    if figs:
+        if grids:
+            grids[0].kids = figs
+        else:
+            sec = parse(f'<section class="block dz-gal" data-dz="add"><h2>写真ギャラリー</h2><div class="gallery"></div></section>').kids[0]
+            next(n for n in sec.walk() if "gallery" in n.classes()).kids = figs
+            src = next((n for n in root.walk() if "sources" in n.classes() and n.tag == "section"), None)
+            if src is None:
+                next((n for n in root.walk() if "wrap" in n.classes()), root).kids.append(sec)
+            else:
+                box = parent_of(root, src)
+                box.kids.insert(box.kids.index(src), sec)
+    for g in grids[0 if not figs else 1:]:
+        sec = parent_of(root, g)
+        drop(root, sec if sec is not None and sec.tag == "section" else g)
+    # 一覧のカードの写真（下の面とは別の写真）。出典は一覧のすぐ下
+    cards = page.get("cards", {})
+    if cards:
+        for box in [n for n in root.walk() if n.tag == "div" and "cards" in n.classes()]:
+            used = []
+            for a in box.elements("a"):
+                m = re.search(r'\shref="([^"]*)"', a.start)
+                e = cards.get(m.group(1)) if m else None
+                img = next((k for k in a.elements("img")), None)
+                if img is not None: a.kids.remove(img)
+                a.start = a.start.replace(" has-thumb", "")
+                if e:
+                    a.add_class("has-thumb")
+                    a.kids.insert(0, parse(f'<img class="thumb" src="{html.escape(e["src"], quote=True)}" alt="{html.escape(e["alt"], quote=True)}" loading="lazy">').kids[0])
+                    used.append(e)
+            if used:
+                lines = "".join(f'<li>{html.escape(e["alt"])}　{credit_html(e)}</li>' for e in used)
+                p = parent_of(root, box)
+                p.kids.insert(p.kids.index(box) + 1, parse(f'<details class="dz-credits" data-dz="add"><summary>一覧の写真の出典</summary><ul>{lines}</ul></details>').kids[0])
+
 def apply(url, main):
     root = parse(main)
     state = {"n": 0, "caution": 0, "headings": load_headings(), "used": set()}
@@ -376,4 +473,5 @@ def apply(url, main):
     lead_blocks(root)
     extra_photos(url, root, main)
     page_photo(url, root)
+    curate(url, root)
     return root.out()

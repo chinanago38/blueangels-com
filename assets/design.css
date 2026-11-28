@@ -140,3 +140,9 @@ footer.site p a:hover{background:#fff;color:var(--deep)}
   .crumb{border-radius:12px}
 }
 :root{--deep:#071b3d;--water:#17488f;--accent:#e8a200;--green:#2a7ba6;--sky:#dde8f8}
+.dz-credits{font-size:.74rem;margin:8px 0 18px;color:#4a5a6a}
+.dz-credits summary{cursor:pointer;padding:6px 0}
+.dz-credits ul{margin:4px 0 0;padding-left:1.3em;line-height:1.6}
+.dz-gal .gallery img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+main table th,main table td{overflow-wrap:break-word}
+@media(max-width:600px){main table.dz-cmp th,main table.dz-cmp td{padding:8px 6px;font-size:.8rem}.block table.dz-cmp th:first-child,.block table.dz-cmp td:first-child{min-width:5.3em}}

@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import design
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://xn--hckb2cf5l4ed5d5d.com"
-CSS_VER = "20261129b"
+CSS_VER = "20261129d"
 AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1061443138303693" crossorigin="anonymous"></script>'
 NAV = [("2027年の予定", "/schedule/2027/"), ("行事の案内", "/events/")]
 SECTION_NAME = {"schedule": ("スケジュール", "/schedule/"), "events": ("行事の案内", "/events/")}
