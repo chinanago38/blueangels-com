@@ -8,9 +8,11 @@ sys.dont_write_bytecode = True
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import events
 import sections
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import design
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://xn--hckb2cf5l4ed5d5d.com"
-CSS_VER = "20261127m"
+CSS_VER = "20261129a"
 AD = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1061443138303693" crossorigin="anonymous"></script>'
 NAV = [("2027年の予定", "/schedule/2027/"), ("行事の案内", "/events/")]
 SECTION_NAME = {"schedule": ("スケジュール", "/schedule/"), "events": ("行事の案内", "/events/")}
@@ -470,6 +472,7 @@ def render(url, title, desc, body):
     main = events.insert(url, main)
     main = sections.insert(url, main)
     nav = "".join(f'<a href="{u}">{t}</a>' for t, u in NAV if u != "/events/" or complete("events__index.html"))
+    main = design.apply(url, main)
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -483,6 +486,7 @@ def render(url, title, desc, body):
 <meta property="og:type" content="{'website' if url == '/' else 'article'}">
 <meta property="og:url" content="{DOMAIN}{url}">
 <link rel="stylesheet" href="/assets/style.css?v={CSS_VER}">
+<link rel="stylesheet" href="/assets/design.css?v={CSS_VER}">
 {AD}
 </head>
 <body>

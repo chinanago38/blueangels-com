@@ -1,0 +1,111 @@
+/* 本文の組み替え（カード・アイコン付きの見出し・表・流れの図・注意の箱・数字の箱） */
+:root{--dz-tint:color-mix(in srgb,var(--water) 9%,#fff);--dz-line:color-mix(in srgb,var(--water) 22%,#fff);--dz-warm:#fff4e2}
+main{overflow-wrap:anywhere}
+.dz-ic{display:inline-grid;place-items:center;flex:none;width:30px;height:30px;border-radius:10px;background:var(--dz-tint);color:var(--water)}
+.dz-ic svg{width:19px;height:19px}
+
+/* 節 */
+.block.dz-sec{border-top:4px solid var(--water);padding-top:18px}
+.block.dz-tone1{border-top-color:var(--accent)}
+.block.dz-tone2{border-top-color:var(--green,#2e8b6e)}
+h2.dz-h2{gap:12px;align-items:center;border-bottom:1px dashed var(--dz-line);line-height:1.45}
+h2.dz-h2::before{display:none}
+h2.dz-h2 .dz-ic{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--water),var(--deep));color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.16)}
+h2.dz-h2 .dz-ic svg{width:25px;height:25px}
+.dz-tone1 h2.dz-h2 .dz-ic{background:linear-gradient(135deg,var(--accent),#c9721a)}
+.dz-tone2 h2.dz-h2 .dz-ic{background:linear-gradient(135deg,var(--green,#2e8b6e),#17604a)}
+.dz-h2t{min-width:0}
+
+/* 小見出しごとの箱 */
+.dz-h3grid{display:grid;gap:14px;margin:14px 0}
+.dz-h3grid.dz-two{grid-template-columns:repeat(auto-fit,minmax(min(330px,100%),1fr))}
+.dz-h3card{border:1px solid var(--dz-line);border-radius:14px;padding:14px 16px;background:linear-gradient(180deg,var(--dz-tint),#fff 70px);min-width:0}
+.dz-h3card>:last-child{margin-bottom:0}
+h3.dz-h3{display:flex;gap:10px;align-items:center;margin:0 0 10px}
+h3.dz-h3::before{display:none}
+h3.dz-h3 .dz-ic{background:#fff;box-shadow:0 1px 5px rgba(0,0,0,.1)}
+
+/* 段落の箱 */
+.dz-pcard{border-left:4px solid var(--dz-line);background:#fbfdfe;border-radius:0 14px 14px 0;padding:12px 16px;margin:12px 0}
+.dz-pcard.dz-has-h{border:1px solid var(--dz-line);border-left:4px solid var(--water);background:#fff}
+.dz-pcard p{margin:.55em 0}
+.dz-pcard>p:first-child{margin-top:0}
+.dz-pcard>p:last-child{margin-bottom:0}
+p.dz-gh{display:flex;gap:10px;align-items:center;font-weight:800;color:var(--deep);font-size:1.03rem;margin:0 0 8px}
+
+/* 注意の箱 */
+p.dz-caution{display:flex;gap:12px;align-items:flex-start;background:var(--dz-warm);border:1px solid #f2cf93;border-radius:14px;padding:13px 16px;margin:14px 0}
+p.dz-caution .dz-ic{background:var(--accent);color:#fff}
+p.dz-caution .dz-t{min-width:0}
+
+/* 名前と値の表＝数字の箱 */
+.table-wrap:has(>table.dz-kv){border:0;overflow:visible}
+table.dz-kv,table.dz-kv tbody{display:block;background:transparent}
+table.dz-kv tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:10px}
+table.dz-kv tr{display:flex;flex-direction:column;border:1px solid var(--dz-line);border-radius:14px;overflow:hidden;background:#fff}
+table.dz-kv th,table.dz-kv tr>th:first-child:not(thead th){display:block;width:auto;white-space:normal;background:var(--dz-tint);color:var(--deep);font-size:.84rem;padding:7px 14px;border:0}
+table.dz-kv td{display:block;border:0;padding:10px 14px;background:#fff!important;font-weight:600}
+.dz-n{font-size:1.28em;font-weight:900;color:var(--deep);font-variant-numeric:tabular-nums;letter-spacing:.01em}
+
+/* 比べる表 */
+table.dz-cmp tr>:first-child{font-weight:700}
+table.dz-cmp thead th,table.dz-cmp tr:first-child>th{background:var(--deep);color:#fff}
+table.dz-cmp tbody tr:hover td{background:var(--dz-tint)}
+@media(max-width:640px){
+  .table-wrap:has(>table.dz-stack){border:0;overflow:visible}
+  table.dz-stack,table.dz-stack tbody,table.dz-stack tr,table.dz-stack td,table.dz-stack th{display:block;width:auto;white-space:normal}
+  table.dz-stack{background:transparent}
+  table.dz-stack thead,table.dz-stack tr.dz-headrow{display:none}
+  table.dz-stack tr{display:flex;flex-wrap:wrap;border:1px solid var(--dz-line);border-radius:14px;overflow:hidden;margin:0 0 10px;background:#fff}
+  table.dz-stack tr>*{flex:1 1 100%;min-width:0}
+  table.dz-stack tr>td.dz-s{flex:1 1 30%}
+  table.dz-stack tr>:first-child{background:var(--dz-tint)!important;color:var(--deep);white-space:normal;width:auto}
+  table.dz-stack td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;font-size:.74rem;color:var(--sub);font-weight:700;line-height:1.5}
+  table.dz-stack td{border-bottom:1px solid var(--line);padding:8px 14px}
+  table.dz-stack tr>:last-child{border-bottom:0}
+}
+
+/* 項目の箱 */
+main ul.dz-tiles,main ul.dz-compare,main ul.dz-marks,main ul.dz-pills,main ul.dz-check,main ol.dz-flow{list-style:none;padding:0;margin:14px 0}
+main ul.dz-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(270px,100%),1fr));gap:12px}
+main ul.dz-compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:12px}
+ul.dz-tiles>li,ul.dz-compare>li{margin:0;border:1px solid var(--dz-line);border-radius:14px;padding:14px 16px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.04);min-width:0}
+ul.dz-compare>li{border-top:5px solid var(--water)}
+ul.dz-compare>li:nth-child(2){border-top-color:var(--accent)}
+ul.dz-compare>li:nth-child(3){border-top-color:var(--green,#2e8b6e)}
+ul.dz-tiles>li>.dz-ic,ul.dz-compare>li>.dz-ic{margin-bottom:8px}
+strong.dz-lb{display:block;color:var(--deep);margin-bottom:4px;line-height:1.55}
+.dz-co{display:none}
+main ul.dz-pills{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(230px,100%),1fr));gap:8px}
+ul.dz-pills>li{margin:0;background:var(--dz-tint);border:1px solid var(--dz-line);border-left:4px solid var(--water);border-radius:10px;padding:8px 12px;font-size:.93rem;line-height:1.6;min-width:0}
+main ul.dz-marks,main ul.dz-check{display:grid;gap:8px}
+ul.dz-marks>li{display:flex;gap:12px;align-items:flex-start;margin:0;border:1px solid var(--dz-line);border-radius:12px;padding:10px 14px;background:#fff}
+ul.dz-marks>li .dz-ic{width:24px;height:24px;border-radius:50%;background:var(--water);color:#fff}
+ul.dz-marks>li .dz-ic svg{width:14px;height:14px}
+ul.dz-marks .dz-t{min-width:0}
+ul.dz-check>li{position:relative;margin:0;border:2px dashed var(--dz-line);border-radius:12px;padding:11px 14px 11px 54px;background:#fff}
+ul.dz-check>li>.dz-ic{position:absolute;left:12px;top:11px;border:2px solid var(--water);background:#fff;width:28px;height:28px;border-radius:8px}
+
+/* 流れの図 */
+main ol.dz-flow,main ol.steps{counter-reset:dz;position:relative}
+ol.dz-flow>li{counter-increment:dz;position:relative;margin:0 0 22px;padding:0 0 0 54px;list-style:none}
+ol.dz-flow>li:last-child{margin-bottom:0}
+ol.dz-flow>li::before{content:counter(dz);position:absolute;left:0;top:6px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--water),var(--deep));color:#fff;font-weight:900;box-shadow:0 3px 10px rgba(0,0,0,.18)}
+ol.dz-flow>li:not(:last-child)::after{content:"";position:absolute;left:18px;top:48px;bottom:-24px;width:3px;border-radius:2px;background:var(--dz-line)}
+.dz-step{border:1px solid var(--dz-line);border-radius:14px;padding:12px 16px;background:#fff}
+
+/* 要点・よくある質問 */
+.points{border-width:0 0 0 6px!important;box-shadow:var(--shadow)}
+.lead-block p{margin:.6em 0}
+
+@media(max-width:640px){
+  .page-hero.photo-hero .credit,.tophero .credit{position:static;max-width:100%;text-align:left;margin:10px 0 0;line-height:1.5}
+  .page-hero.photo-hero{padding-bottom:14px}
+  .dz-h3card{padding:12px}
+  h2.dz-h2{font-size:1.15rem}
+  h2.dz-h2 .dz-ic{width:36px;height:36px;border-radius:11px}
+  h2.dz-h2 .dz-ic svg{width:21px;height:21px}
+  ol.dz-flow>li{padding-left:46px}
+  ol.dz-flow>li::before{width:32px;height:32px}
+  ol.dz-flow>li:not(:last-child)::after{left:15px;top:42px}
+}
